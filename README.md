@@ -1,3 +1,3 @@
-# simple-Strings
+# simple-strings
 
 React + web3
