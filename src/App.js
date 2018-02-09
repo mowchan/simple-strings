@@ -71,7 +71,7 @@ class App extends Component {
   onSubmitPageName = (e) => {
     e.preventDefault();
     const value = e.target.previousSibling.value;
-    this.contract.setUserName(value, this.onTxnCreated);
+    this.contract.setPageName(value, this.onTxnCreated);
   };
 
   onTxnCreated = (error, result) => {
