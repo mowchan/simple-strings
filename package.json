@@ -1,6 +1,7 @@
 {
   "name": "simple-strings",
-  "version": "0.1.0",
+  "version": "0.0.3",
+  "homepage": "http://mowchan.github.io/simple-strings",
   "private": true,
   "dependencies": {
     "react": "^16.2.0",
@@ -12,9 +13,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && gh-pages -d build"
   },
   "devDependencies": {
+    "gh-pages": "^1.1.0",
     "styled-components": "^3.1.6"
   }
 }
